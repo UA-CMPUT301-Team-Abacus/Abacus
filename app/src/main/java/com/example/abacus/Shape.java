@@ -3,7 +3,7 @@ package com.example.abacus;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-    private String color = "green"
+    private String color = "yellow";
 
     public Shape(Integer x, Integer y) {
         this.x = x;
