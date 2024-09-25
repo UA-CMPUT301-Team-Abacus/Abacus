@@ -1,10 +1,11 @@
 package com.example.abacus;
 
 public class Triangle extends Shape {
-    private Integer z;
+    private Integer x;
+    private Integer y;
 
-    public Triangle(Integer z) {
-        this.z = z;
+    public Triangle(Integer x, Integer y){
+        super(x,y);
     }
 
     public Integer getZ() {
