@@ -8,4 +8,5 @@ public class Hexagon extends Shape{
         this.y = y;
         this.x = x;
     }
+    
 }
